@@ -3,10 +3,13 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   :root{
     --background: #f0f2f5;
+    
     --red:#e52e4D;
     
     --blue:#5429CC;
     --blue-light: #6933ff;
+
+    --green:#33CC95;
 
     --text-title:#363F5F;
     --text-body: #636cb3;
@@ -33,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
 
   //REM -> 1rem = font-size
   body{
-    background: var (--background);
+    background: var(--background);
     -webkit-font-smoothing: antiliased;
   }
 
